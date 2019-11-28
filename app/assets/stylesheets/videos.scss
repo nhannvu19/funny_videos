@@ -1,0 +1,34 @@
+// Place all the styles related to the Videos controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.mx-auto {
+  float: none;
+  width: 40%;
+  margin: auto;
+}
+
+.b-a {
+  border: 1px solid #000;
+}
+
+.p-a-md {
+  padding: 1.5em;
+}
+
+.m-t-lg {
+  margin-top: 2.5em;
+}
+
+.field {
+  width: 75%;
+}
+
+.field-label {
+  display: inline;
+  margin-right: 1em;
+}
+
+.text-center {
+  text-align: center;
+}
