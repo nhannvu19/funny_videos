@@ -1,0 +1,8 @@
+.mx-auto.m-t-lg
+  table
+    - @videos.each do |video|
+      tr
+        td
+          iframe src=youtube_url(video) height="200" width="350"
+        td
+          div Shared by #{video.user.email}

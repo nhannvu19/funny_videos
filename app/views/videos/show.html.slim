@@ -1,0 +1,12 @@
+p#notice = notice
+
+p
+  strong User:
+  = @video.user_id
+p
+  strong Url:
+  = @video.url
+
+=> link_to 'Edit', edit_video_path(@video)
+'|
+=< link_to 'Back', videos_path

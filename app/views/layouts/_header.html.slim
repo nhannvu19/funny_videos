@@ -1,0 +1,10 @@
+.header
+  .app-name Funny Videos
+  .pull-right
+    = header
+  .clearfix
+.flash-notice
+  - if flash[:notice]
+    .green-notice = flash[:notice]
+  - if flash[:error]
+    .red-notice = flash[:error]

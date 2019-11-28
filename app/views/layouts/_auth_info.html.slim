@@ -1,0 +1,4 @@
+.inline Welcome #{current_user.email}
+.inline
+  = link_to 'Share a movie', new_video_path
+  = link_to('Logout', destroy_user_session_path, method: :delete)
