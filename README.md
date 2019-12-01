@@ -1,24 +1,24 @@
-# README
+Mini web application that allows users to share youtube videos.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# RUN APP ON LOCAL
+```
+rails server
+```
 
-Things you may want to cover:
+# RUN CONSOLE ON LOCAL
+```
+rails console
+```
 
-* Ruby version
+# COMMIT CODE
+```
+git add <changes>
+git commit -m <message>
+git push origin <branch>
+```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# TESTING
+```
+rspec ./spec
+rake cucumber
+```

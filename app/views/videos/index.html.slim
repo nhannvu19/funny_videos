@@ -3,6 +3,6 @@
     - @videos.each do |video|
       tr
         td
-          iframe src=youtube_url(video) height="200" width="350"
+          iframe src=video.youtube_embed_url height="200" width="350"
         td
-          div Shared by #{video.user.email}
+          div Shared by #{video.user&.email}
